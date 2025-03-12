@@ -13,10 +13,10 @@ const MedicinesDoctors = () => {
 
         {/* Medicine Images */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mt-6 place-items-center">
-          <Image src="/images/medicine1.jpg" alt="Medicine 1" width={150} height={150} className="rounded-lg shadow-md" />
-          <Image src="/images/medicine2.jpg" alt="Medicine 2" width={150} height={150} className="rounded-lg shadow-md" />
-          <Image src="/images/medicine3.jpg" alt="Medicine 3" width={150} height={150} className="rounded-lg shadow-md" />
-          <Image src="/images/medicine4.jpg" alt="Medicine 4" width={150} height={150} className="rounded-lg shadow-md" />
+          <Image src="/images/medicine.jpg" alt="Medicine 1" width={150} height={150} className="rounded-lg shadow-md" />
+          <Image src="/images/medicine.jpg" alt="Medicine 2" width={150} height={150} className="rounded-lg shadow-md" />
+          <Image src="/images/medicine.jpg" alt="Medicine 3" width={150} height={150} className="rounded-lg shadow-md" />
+          <Image src="/images/medicine.jpg" alt="Medicine 4" width={150} height={150} className="rounded-lg shadow-md" />
         </div>
 
         <p className="mt-4 italic text-gray-600 font-semibold">
@@ -35,7 +35,7 @@ const MedicinesDoctors = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
           {/* Doctor 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <Image src="/images/doctor1.jpg" alt="Doctor 1" width={100} height={100} className="rounded-full mx-auto" />
+            <Image src="/images/doctor-male.jpg" alt="Doctor 1" width={100} height={100} className="rounded-full mx-auto" />
             <h3 className="text-lg font-semibold mt-4 text-center text-justify">Chief of Surgery</h3>
             <p className="text-blue-400 text-sm text-center text-justify">Dr. Burton S. Hillary</p>
             <p className="text-gray-700 text-sm mt-2 text-center text-justify">
@@ -45,7 +45,7 @@ const MedicinesDoctors = () => {
 
           {/* Doctor 2 */}
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <Image src="/images/doctor2.jpg" alt="Doctor 2" width={100} height={100} className="rounded-full mx-auto" />
+            <Image src="/images/doctor1.jpg" alt="Doctor 2" width={100} height={100} className="rounded-full mx-auto" />
             <h3 className="text-lg font-semibold mt-4">Director of Diagnostic & Imaging</h3>
             <p className="text-gray-600 text-sm">Dr. Nandi Nika</p>
             <p className="text-gray-700 text-sm mt-2 text-center text-justify">
@@ -55,7 +55,7 @@ const MedicinesDoctors = () => {
 
           {/* Doctor 3 */}
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
-            <Image src="/images/doctor3.jpg" alt="Doctor 3" width={100} height={100} className="rounded-full mx-auto" />
+            <Image src="/images/doctor1.jpg" alt="Doctor 3" width={100} height={100} className="rounded-full mx-auto" />
             <h3 className="text-lg font-semibold mt-4">Chief of Medicine</h3>
             <p className="text-gray-600 text-sm">Dr. Tomason Mukono</p>
             <p className="text-gray-700 text-sm mt-2 text-center text-justify">
