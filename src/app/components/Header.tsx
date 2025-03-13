@@ -8,16 +8,19 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full  shadow-md z-50">
-      <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        {/* Logo */}
+    <header className="fixed top-0 left-0 w-full z-50 bg-transparent px-6 max-w-6xl mx-auto">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center py-4 px-6">
+        
+        {/* Title Section */}
         <div className="flex items-center">
-          
-          <h1 className="text-Black text-xl font-semibold ml-2">MediHaven Hospital</h1>
+          <h1 className="text-black text-xl font-semibold ml-2 p-2">
+            MediHaven <br />
+            <span className="font-bold text-4xl text-white">Hospital</span>
+          </h1>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex space-x-6 border-l-white">
+        <nav className="hidden md:flex space-x-6 border border-white px-6 py-2 rounded-lg">
           <Link href="/" className="text-white text-lg hover:underline">Home</Link>
           <Link href="/about" className="text-white text-lg hover:underline">About</Link>
           <Link href="/services" className="text-white text-lg hover:underline">Services</Link>
@@ -33,7 +36,7 @@ const Header = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-blue-600 text-white text-center p-4 space-y-3">
+        <div className="md:hidden bg-blue-600 text-white text-center p-4 space-y-3 rounded-lg">
           <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
           <Link href="/services" onClick={() => setMenuOpen(false)}>Services</Link>

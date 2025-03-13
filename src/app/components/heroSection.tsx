@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-blue-100 min-h-[400px] flex items-center justify-center text-center px-6">
-      {/* Background Image */}
+    <section className="mt-4 w-full max-w-6xl mx-auto px-4 md:px-8 relative bg-blue-100 min-h-[400px] flex items-center justify-center text-center">
+      {/* Background Image
       <div className="absolute inset-0 z-0">
         <Image 
           src="/images/medical-bg.jpg" 
@@ -12,11 +12,11 @@ const HeroSection = () => {
           objectFit="cover" 
           className="opacity-50"
         />
-      </div>
+      </div> */}
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl">
-        <h1 className="text-2xl md:text-3xl font-bold text-blue-900">
+      <div className="relative z-10 max-w-4xl text-justify px-6">
+        <h1 className="text-2xl md:text-3xl font-bold text-blue-900 text-center">
           Discover Expertise, Experience Care, <br /> Embrace Wellness
         </h1>
         <p className="text-gray-800 mt-3">
@@ -27,9 +27,11 @@ const HeroSection = () => {
         </p>
 
         {/* CTA Button */}
-        <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-md hover:bg-blue-700 transition">
-          Learn More
-        </button>
+        <div className="flex justify-center">
+          <button className="px-10 py-2 border-2 border-blue-600 text-blue-600 rounded-full text-lg shadow-md hover:bg-blue-600 hover:text-white transition mt-6">
+            Learn More
+          </button>
+        </div>
       </div>
 
       {/* Doctors Image */}
