@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const HeroSection = () => {
   return (
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-justify px-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-blue-900 text-center">
+        <h1 className="text-2xl md:text-3xl font-bold text-blue-900 ">
           Discover Expertise, Experience Care, <br /> Embrace Wellness
         </h1>
         <p className="text-gray-800 mt-3">
@@ -35,7 +35,7 @@ const HeroSection = () => {
       </div>
 
       {/* Doctors Image */}
-      <div className="absolute bottom-0 right-0 left-0 flex justify-center">
+      {/* <div className="absolute bottom-0 right-0 left-0 flex justify-center">
         <Image 
           src="/images/doctors-group.png" 
           alt="Doctors team" 
@@ -43,7 +43,7 @@ const HeroSection = () => {
           height={200} 
           className="drop-shadow-lg"
         />
-      </div>
+      </div> */}
     </section>
   );
 };

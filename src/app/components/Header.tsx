@@ -12,15 +12,15 @@ const Header = () => {
       <div className="max-w-[1440px] mx-auto flex justify-between items-center py-4 px-6">
         
         {/* Title Section */}
-        <div className="flex items-center">
-          <h1 className="text-black text-xl font-semibold ml-2 p-2">
+        <div className="flex items-center ml-15">
+          <h1 className="text-black text-xl font-semibold ml-4 p-2">
             MediHaven <br />
             <span className="font-bold text-4xl text-white">Hospital</span>
           </h1>
         </div>
 
         {/* Navigation */}
-        <nav className="hidden md:flex space-x-6 border border-white px-6 py-2 rounded-lg">
+        <nav className="hidden md:flex space-x-6 border-2 border-white px-6 py-2 rounded-lg">
           <Link href="/" className="text-white text-lg hover:underline">Home</Link>
           <Link href="/about" className="text-white text-lg hover:underline">About</Link>
           <Link href="/services" className="text-white text-lg hover:underline">Services</Link>

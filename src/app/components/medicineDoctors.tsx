@@ -2,9 +2,10 @@ import Image from "next/image";
 
 const MedicinesDoctors = () => {
   return (
-    <section className="w-full max-w-[1440px] mx-auto px-4 md:px-8">
+    
+    <section className="w-full max-w-[1440px] mx-auto  md:px-8 ">
       {/* Medicines Section */}
-      <div className="text-center py-12">
+      <div className="text-center py-10">
         <h2 className="text-3xl font-semibold text-blue-600">Medicines</h2>
         <p className="text-gray-700 mt-4 md:w-3/4 lg:w-1/2 mx-auto">
           Our pharmacy stocks high-quality, approved drugs that cater to various medical needs, ensuring safety and effectiveness for our patients.
@@ -12,9 +13,9 @@ const MedicinesDoctors = () => {
         </p>
 
         {/* Medicine Images */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+        <div className="grid grid-cols-2 md:grid-cols-4  mt-6">
           {[...Array(4)].map((_, index) => (
-            <Image key={index} src="/images/medicine.jpg" alt={`Medicine ${index + 1}`} width={150} height={150} className="rounded-lg shadow-md" />
+            <Image key={index} src="/images/medicine.jpg" alt={`Medicine ${index + 1}`} width={200} height={150} className="rounded-lg shadow-md" />
           ))}
         </div>
 
@@ -22,7 +23,7 @@ const MedicinesDoctors = () => {
       </div>
 
       {/* Our Doctors Section */}
-      <div className="bg-blue-50 py-12 px-6 mt-10 rounded-lg">
+      <div className="bg-blue-50 py-8 px-6 mt-10 ">
         <h2 className="text-3xl font-semibold text-blue-600 text-center">Our Doctors</h2>
         <p className="text-gray-700 mt-4 text-center md:w-3/4 mx-auto">
           Our team of dedicated doctors is committed to providing exceptional healthcare with compassion and expertise. With years of experience in their fields, they ensure the best possible medical care.
@@ -45,7 +46,7 @@ const MedicinesDoctors = () => {
 
         {/* Learn More Button */}
         <div className="text-center mt-8">
-          <button className="px-6 py-2 border-2 border-blue-600 text-blue-600 rounded-full text-lg shadow-md hover:bg-blue-600 hover:text-white transition-all duration-300">
+          <button className="px-4 py-2 border-2 border-blue-600 text-blue-600 rounded-full text-lg shadow-md hover:bg-blue-600 hover:text-white transition-all duration-300">
             Learn More
           </button>
         </div>
