@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex items-center ml-15">
           <h1 className="text-black text-xl font-semibold ml-4 p-2">
             MediHaven <br />
-            <span className="font-bold text-4xl text-white">Hospital</span>
+            <span className="font-bold text-4xl text-white ml-6">Hospital</span>
           </h1>
         </div>
 
